@@ -76,12 +76,13 @@ Inference Output: fraud_predictions.csv
 
 ## Model Performance
 
-Trained on a synthetic dataset of approximately 3,500 transactions.
+The dataset used in this project is synthetic, which results in cleaner patterns than real-world financial data.
 
-- **Logistic Regression:** ~0.78 accuracy  
-- **Decision Tree:** ~0.75 accuracy  
+Baseline models achieved the following results:
+- Logistic Regression: ~78% accuracy
+- Decision Tree: ~75% accuracy
 
-Note: This pipeline uses a synthetic dataset for demonstration purposes. Synthetic patterns tend to be cleaner than real-world data and may produce higher accuracy scores during execution (e.g., above 90%). The 75–80% range documented here reflects a conservative real-world baseline rather than synthetic performance.
+These results reflect performance on controlled synthetic data and are not representative of real-world fraud detection accuracy.
 
 ---
 
